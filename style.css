@@ -20,8 +20,13 @@ body {
   font-weight: 500;
 }
 
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #201e1c !important;
+}
+
 .btn-primary:hover {
-  background-color: #c19a6b;
+  background-color: #c19a6b !important;
 }
 
 .btn-outline-success {
@@ -33,10 +38,12 @@ body {
   font-weight: 500;
 }
 
+.btn-outline-success:focus,
+.btn-outline-success:active,
 .btn-outline-success:hover {
-  background-color: #a17a50;
+  background-color: #a17a50 !important;
   color: #fff;
-  border: 2px solid #a17a50;
+  border: 2px solid #a17a50 !important;
 }
 /* nav bar section styles */
 
@@ -86,7 +93,9 @@ body {
 
 /* end of hero section */
 
-.product-card {
+/* products section starts */
+
+.card:hover {
   border: none;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -101,4 +110,23 @@ body {
   font-size: 1.3rem;
   font-weight: 600;
   padding-top: 1rem;
+}
+
+/* Product section ends */
+
+/* categories section starts */
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: center; 
+  padding-bottom: 20px; 
+}
+
+
+/* testimonials section starts */
+.testimonials {
+  background-color: #201e1c;
+  color: #fff;
+  margin-bottom: 80px;
 }
