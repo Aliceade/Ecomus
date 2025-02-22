@@ -59,11 +59,11 @@ body {
 }
 
 .nav-link {
-  color: #c19a6b;
+  color: #201e1c;
   font-weight: 600;
 }
 .nav-link:hover {
-  color: #333;
+  color: #c19a6b;
 }
 
 .navbar-toggler {
